@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2021-02-19T17:44:24.863+09:00
+  initializedAtString: 2021-02-19T16:15:07.555+09:00
+  log:
+  - commitID: 847b95fe8969ec7d6b8cca6c91b7dabf9cc274a9
+    mergeA: 
+    mergeB: 
+    authorName: LichRich
+    authorEmail: 49710317+LichRich@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create .gitignore
+    description: 
+    timeString: 2021-02-19T17:32:22.000+09:00
+    commitTimeString: 2021-02-19T17:32:22.000+09:00
+    changes:
+    - path: .gitignore\.gitignore
+      fullPath: C:\Users\leech\Desktop\programs\ch_study\projects\Task_Plant\.gitignore\.gitignore
+      projectPath: ..\.gitignore\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
