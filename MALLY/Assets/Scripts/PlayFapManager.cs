@@ -1,8 +1,11 @@
 ﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using PlayFab;
 using PlayFab.ClientModels;
+using PlayFab.CloudScriptModels;
+using PlayFab.EventsModels;
 using Photon.Pun;
 using Photon.Realtime;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
@@ -40,6 +43,8 @@ public class PlayFapManager : MonoBehaviourPunCallbacks
         // GetLeaderboard(result.PlayFabId);
         // PhotonNetwork.ConnectUsingSettings();
         print("로그인 성공!");
+        SceneController.Instance.LoadScene(SceneNames.StartScene);
+        
     }
     private void OnLoginFailure(PlayFabError error)
     {

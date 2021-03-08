@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-19T17:44:24.779+09:00
-  initializedAtString: 2021-02-19T16:15:07.393+09:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2021-03-08T20:27:54.501+09:00
+  initializedAtString: 2021-03-08T20:27:54.485+09:00
+  localBranches:
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/kimbeopseong/Task_Plant.git
@@ -26,15 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/kimbeopseong/Task_Plant.git
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
-    - Values: []
+    - Values:
+      - main
     subKeyValues:
-    - Values: []
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/kimbeopseong/Task_Plant.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
